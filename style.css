@@ -1,27 +1,29 @@
 
-.footer {
-  background-color: #000;
-  color: gold;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background: #b30000;
+  color: white;
   padding: 2rem;
   text-align: center;
 }
 
-.social-icons {
-  margin-bottom: 1rem;
+main {
+  padding: 2rem;
 }
 
-.social-icons a {
-  margin: 0 12px;
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.social-icons img {
-  width: 30px;
-  height: 30px;
-  filter: brightness(0) saturate(100%) invert(84%) sepia(47%) saturate(577%) hue-rotate(1deg) brightness(102%) contrast(95%);
-}
-
-.social-icons a:hover {
-  transform: scale(1.2);
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: black;
+  color: gold;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
